@@ -1,0 +1,1877 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.MilkPowder.com/ontologies/MilkPowder.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.MilkPowder.com/ontologies/MilkPowder.owl">
+    <Prefix name="" IRI="http://www.MilkPowder.com/ontologies/MilkPowder.owl"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">This is an Ontology about differnet  Milk Powder types and their characteristics</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Ambewela_MilkPowder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anchor_MilkPowder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BananaCream_Flavour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Box"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChoclateMolt_Flavour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Choclate_Flavour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClassicMolt_MilkPowder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coffee_Flavour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cotton_Candy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Customer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Delicious_MilkPowder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Female_Seller"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ForeignBrand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fruit_Flavour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FullCream_MilkPowder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Imported_MilkPowder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LocalBrand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Local_MilkPowder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Male_Seller"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MilkCoffee_Powder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MilkPowder_Brands"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MilkPowder_Flavours"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MilkPowder_Packing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MilkPowder_for_Babies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MilkPowder_for_Pregnent_Mothers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Milko_Mix_MilkPowder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Milo_MilkPowder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MixFruit_MIlkPowder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Molt_Flavour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Molted_MilkPowder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Named_MilkPowder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nescaffee_MilkPowder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nespray_MilkPowder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NestQuick_MlikPowder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nestle_MilkPowder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonFat_MilkPowder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nutritional_Suppliment_For_Breastfeeding_Mothers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nutritional_Suppliment_MilkPowder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nutritional_Suppliment__For_Elders"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OldPeople"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orange_Dramside"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Packet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pepppermint_Flavour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plain_MilkPowder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Popular_MilkPowder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pregnent_Mothers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seller"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strawberry_Flavour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sustagen_MilkPowder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sweet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sweet_mix_Bitter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tasty_ValuePartition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teenagers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VanilaMolt_Flavour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vanila_Flavour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBrand"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBuyer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCover"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFlavour"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPacking"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSeller"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTastyness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isBrandof"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isBuyerof"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCoverof"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isFlavourof"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPackingof"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSellerof"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Gender"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAge"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCalorificContent_Value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasExpireDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasFat_Value_Per100g"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasManufacture_Date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSpecialNutritious"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTargetPeople"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ambewela_Full_Cream"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anchor_Fortfied"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anchor_PediaPro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anchor_PediaPro_Mama"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anchor_Shapeup"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Enfamama"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Horlicks_Choco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#John_Ferdi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Merry_levis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nangrow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nescaffee_3_in1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NestQuick_Kiddos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nestamalt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sustegen_Ensure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Milk_&apos;O&apos;_Mix_Butterscotch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mother&apos;s_Horlicks"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Delicious_MilkPowder"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasFlavour"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MilkPowder_Flavours"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#hasTastyness"/>
+                        <Class IRI="#Sweet"/>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#FullCream_MilkPowder"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#hasFat_Value_Per100g"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Imported_MilkPowder"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasBrand"/>
+                <Class IRI="#ForeignBrand"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Local_MilkPowder"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasBrand"/>
+                <Class IRI="#LocalBrand"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MilkCoffee_Powder"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasFlavour"/>
+                <Class IRI="#Coffee_Flavour"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MilkPowder_for_Babies"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasFlavour"/>
+                <Class IRI="#Vanila_Flavour"/>
+            </ObjectSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#hasSpecialNutritious"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:string"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#pattern">
+                        <Literal>Omega3</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#hasSpecialNutritious"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:string"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#pattern">
+                        <Literal>Probiotics</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MilkPowder_for_Pregnent_Mothers"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasFlavour"/>
+                <ObjectUnionOf>
+                    <Class IRI="#VanilaMolt_Flavour"/>
+                    <Class IRI="#Vanila_Flavour"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#hasSpecialNutritious"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:string"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#pattern">
+                        <Literal>DHA</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MixFruit_MIlkPowder"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+            <ObjectExactCardinality cardinality="4">
+                <ObjectProperty IRI="#hasFlavour"/>
+                <Class IRI="#Fruit_Flavour"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Molted_MilkPowder"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasFlavour"/>
+                <Class IRI="#Molt_Flavour"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#NonFat_MilkPowder"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#hasFat_Value_Per100g"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Nutritional_Suppliment_For_Breastfeeding_Mothers"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Nutritional_Suppliment_MilkPowder"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#hasTargetPeople"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:string"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#pattern">
+                        <Literal>Mothers</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Nutritional_Suppliment_MilkPowder"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasBrand"/>
+                <Class IRI="#ForeignBrand"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasFlavour"/>
+                <ObjectUnionOf>
+                    <Class IRI="#Choclate_Flavour"/>
+                    <Class IRI="#Vanila_Flavour"/>
+                </ObjectUnionOf>
+            </ObjectAllValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#hasCalorificContent_Value"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">500</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Nutritional_Suppliment__For_Elders"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Nutritional_Suppliment_MilkPowder"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#hasTargetPeople"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:string"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#pattern">
+                        <Literal>OldPeople</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Plain_MilkPowder"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasFlavour"/>
+                <Class IRI="#Vanila_Flavour"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Popular_MilkPowder"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+            <ObjectMinCardinality cardinality="3">
+                <ObjectProperty IRI="#hasFlavour"/>
+                <Class IRI="#MilkPowder_Flavours"/>
+            </ObjectMinCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Tasty_ValuePartition"/>
+        <ObjectUnionOf>
+            <Class IRI="#Low"/>
+            <Class IRI="#Sweet"/>
+            <Class IRI="#Sweet_mix_Bitter"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Ambewela_MilkPowder"/>
+        <Class IRI="#Named_MilkPowder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ambewela_MilkPowder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFlavour"/>
+            <Class IRI="#Vanila_Flavour"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ambewela_MilkPowder"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasBrand"/>
+            <Class IRI="#LocalBrand"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anchor_MilkPowder"/>
+        <Class IRI="#Named_MilkPowder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anchor_MilkPowder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFlavour"/>
+            <Class IRI="#Vanila_Flavour"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anchor_MilkPowder"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasBrand"/>
+            <Class IRI="#ForeignBrand"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BananaCream_Flavour"/>
+        <Class IRI="#Fruit_Flavour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BananaCream_Flavour"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTastyness"/>
+            <Class IRI="#Sweet"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Box"/>
+        <Class IRI="#MilkPowder_Packing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChoclateMolt_Flavour"/>
+        <Class IRI="#Molt_Flavour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChoclateMolt_Flavour"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTastyness"/>
+            <Class IRI="#Sweet_mix_Bitter"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Choclate_Flavour"/>
+        <Class IRI="#MilkPowder_Flavours"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Choclate_Flavour"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTastyness"/>
+            <Class IRI="#Sweet_mix_Bitter"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClassicMolt_MilkPowder"/>
+        <Class IRI="#Named_MilkPowder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClassicMolt_MilkPowder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFlavour"/>
+            <Class IRI="#VanilaMolt_Flavour"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClassicMolt_MilkPowder"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasBrand"/>
+            <Class IRI="#LocalBrand"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coffee_Flavour"/>
+        <Class IRI="#MilkPowder_Flavours"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coffee_Flavour"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTastyness"/>
+            <Class IRI="#Sweet_mix_Bitter"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cotton_Candy"/>
+        <Class IRI="#Fruit_Flavour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cotton_Candy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTastyness"/>
+            <Class IRI="#Low"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Female_Seller"/>
+        <Class IRI="#Seller"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ForeignBrand"/>
+        <Class IRI="#MilkPowder_Brands"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fruit_Flavour"/>
+        <Class IRI="#MilkPowder_Flavours"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kids"/>
+        <Class IRI="#Customer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LocalBrand"/>
+        <Class IRI="#MilkPowder_Brands"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low"/>
+        <Class IRI="#Tasty_ValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Male_Seller"/>
+        <Class IRI="#Seller"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Milko_Mix_MilkPowder"/>
+        <Class IRI="#Named_MilkPowder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Milko_Mix_MilkPowder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFlavour"/>
+            <Class IRI="#BananaCream_Flavour"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Milko_Mix_MilkPowder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFlavour"/>
+            <Class IRI="#Orange_Dramside"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Milko_Mix_MilkPowder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFlavour"/>
+            <Class IRI="#Strawberry_Flavour"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Milko_Mix_MilkPowder"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasBrand"/>
+            <Class IRI="#ForeignBrand"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Milko_Mix_MilkPowder"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasFlavour"/>
+            <ObjectUnionOf>
+                <Class IRI="#BananaCream_Flavour"/>
+                <Class IRI="#Orange_Dramside"/>
+                <Class IRI="#Strawberry_Flavour"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Milo_MilkPowder"/>
+        <Class IRI="#Named_MilkPowder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Milo_MilkPowder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFlavour"/>
+            <Class IRI="#ChoclateMolt_Flavour"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Milo_MilkPowder"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasBrand"/>
+            <Class IRI="#LocalBrand"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Molt_Flavour"/>
+        <Class IRI="#MilkPowder_Flavours"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Named_MilkPowder"/>
+        <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nescaffee_MilkPowder"/>
+        <Class IRI="#Named_MilkPowder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nescaffee_MilkPowder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBrand"/>
+            <Class IRI="#LocalBrand"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nescaffee_MilkPowder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFlavour"/>
+            <Class IRI="#Coffee_Flavour"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nespray_MilkPowder"/>
+        <Class IRI="#Named_MilkPowder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nespray_MilkPowder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFlavour"/>
+            <Class IRI="#Vanila_Flavour"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nespray_MilkPowder"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasBrand"/>
+            <Class IRI="#LocalBrand"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NestQuick_MlikPowder"/>
+        <Class IRI="#Named_MilkPowder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NestQuick_MlikPowder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFlavour"/>
+            <Class IRI="#BananaCream_Flavour"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NestQuick_MlikPowder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFlavour"/>
+            <Class IRI="#Orange_Dramside"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NestQuick_MlikPowder"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasBrand"/>
+            <Class IRI="#ForeignBrand"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NestQuick_MlikPowder"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasFlavour"/>
+            <ObjectUnionOf>
+                <Class IRI="#BananaCream_Flavour"/>
+                <Class IRI="#Orange_Dramside"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nestle_MilkPowder"/>
+        <Class IRI="#Named_MilkPowder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nestle_MilkPowder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFlavour"/>
+            <Class IRI="#Vanila_Flavour"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nestle_MilkPowder"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasBrand"/>
+            <Class IRI="#LocalBrand"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OldPeople"/>
+        <Class IRI="#Customer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orange_Dramside"/>
+        <Class IRI="#Fruit_Flavour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orange_Dramside"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTastyness"/>
+            <Class IRI="#Sweet"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Packet"/>
+        <Class IRI="#MilkPowder_Packing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pepppermint_Flavour"/>
+        <Class IRI="#MilkPowder_Flavours"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pepppermint_Flavour"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTastyness"/>
+            <Class IRI="#Low"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pregnent_Mothers"/>
+        <Class IRI="#Customer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strawberry_Flavour"/>
+        <Class IRI="#Fruit_Flavour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strawberry_Flavour"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTastyness"/>
+            <Class IRI="#Sweet"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sustagen_MilkPowder"/>
+        <Class IRI="#Named_MilkPowder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sustagen_MilkPowder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFlavour"/>
+            <Class IRI="#Choclate_Flavour"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sustagen_MilkPowder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFlavour"/>
+            <Class IRI="#Vanila_Flavour"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sustagen_MilkPowder"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasBrand"/>
+            <Class IRI="#ForeignBrand"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sustagen_MilkPowder"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasFlavour"/>
+            <ObjectUnionOf>
+                <Class IRI="#Choclate_Flavour"/>
+                <Class IRI="#Vanila_Flavour"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sweet"/>
+        <Class IRI="#Tasty_ValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sweet_mix_Bitter"/>
+        <Class IRI="#Tasty_ValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teenagers"/>
+        <Class IRI="#Customer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tin"/>
+        <Class IRI="#MilkPowder_Packing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VanilaMolt_Flavour"/>
+        <Class IRI="#Molt_Flavour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VanilaMolt_Flavour"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTastyness"/>
+            <Class IRI="#Sweet"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanila_Flavour"/>
+        <Class IRI="#MilkPowder_Flavours"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanila_Flavour"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTastyness"/>
+            <Class IRI="#Sweet"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBuyer"/>
+            <Class IRI="#Customer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPacking"/>
+            <Class IRI="#MilkPowder_Packing"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSeller"/>
+            <Class IRI="#Seller"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasCalorificContent_Value"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasExpireDate"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasFat_Value_Per100g"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasManufacture_Date"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Ambewela_MilkPowder"/>
+        <Class IRI="#Anchor_MilkPowder"/>
+        <Class IRI="#ClassicMolt_MilkPowder"/>
+        <Class IRI="#Milko_Mix_MilkPowder"/>
+        <Class IRI="#Milo_MilkPowder"/>
+        <Class IRI="#Nescaffee_MilkPowder"/>
+        <Class IRI="#Nespray_MilkPowder"/>
+        <Class IRI="#NestQuick_MlikPowder"/>
+        <Class IRI="#Nestle_MilkPowder"/>
+        <Class IRI="#Sustagen_MilkPowder"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BananaCream_Flavour"/>
+        <Class IRI="#Cotton_Candy"/>
+        <Class IRI="#Orange_Dramside"/>
+        <Class IRI="#Strawberry_Flavour"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ChoclateMolt_Flavour"/>
+        <Class IRI="#VanilaMolt_Flavour"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Choclate_Flavour"/>
+        <Class IRI="#Coffee_Flavour"/>
+        <Class IRI="#Fruit_Flavour"/>
+        <Class IRI="#Molt_Flavour"/>
+        <Class IRI="#Pepppermint_Flavour"/>
+        <Class IRI="#Vanila_Flavour"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Customer"/>
+        <Class IRI="#MilkPowder_Brands"/>
+        <Class IRI="#MilkPowder_Flavours"/>
+        <Class IRI="#MilkPowder_Packing"/>
+        <Class IRI="#Seller"/>
+        <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Female_Seller"/>
+        <Class IRI="#Male_Seller"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ForeignBrand"/>
+        <Class IRI="#LocalBrand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Kids"/>
+        <Class IRI="#OldPeople"/>
+        <Class IRI="#Pregnent_Mothers"/>
+        <Class IRI="#Teenagers"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Low"/>
+        <Class IRI="#Sweet"/>
+        <Class IRI="#Sweet_mix_Bitter"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Ambewela_MilkPowder"/>
+        <NamedIndividual IRI="#Ambewela_Full_Cream"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anchor_MilkPowder"/>
+        <NamedIndividual IRI="#Anchor_Fortfied"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anchor_MilkPowder"/>
+        <NamedIndividual IRI="#Anchor_PediaPro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anchor_MilkPowder"/>
+        <NamedIndividual IRI="#Anchor_PediaPro_Mama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anchor_MilkPowder"/>
+        <NamedIndividual IRI="#Anchor_Shapeup"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sustagen_MilkPowder"/>
+        <NamedIndividual IRI="#Enfamama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Milo_MilkPowder"/>
+        <NamedIndividual IRI="#Horlicks_Choco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Teenagers"/>
+        <NamedIndividual IRI="#John_Ferdi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Female_Seller"/>
+        <NamedIndividual IRI="#Merry_levis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nestle_MilkPowder"/>
+        <NamedIndividual IRI="#Nangrow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nescaffee_MilkPowder"/>
+        <NamedIndividual IRI="#Nescaffee_3_in1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NestQuick_MlikPowder"/>
+        <NamedIndividual IRI="#NestQuick_Kiddos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ClassicMolt_MilkPowder"/>
+        <NamedIndividual IRI="#Nestamalt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sustagen_MilkPowder"/>
+        <NamedIndividual IRI="#Sustegen_Ensure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Milko_Mix_MilkPowder"/>
+        <NamedIndividual IRI="#Milk_&apos;O&apos;_Mix_Butterscotch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ClassicMolt_MilkPowder"/>
+        <NamedIndividual IRI="#Mother&apos;s_Horlicks"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCalorificContent_Value"/>
+        <NamedIndividual IRI="#Ambewela_Full_Cream"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasExpireDate"/>
+        <NamedIndividual IRI="#Ambewela_Full_Cream"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFat_Value_Per100g"/>
+        <NamedIndividual IRI="#Ambewela_Full_Cream"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasManufacture_Date"/>
+        <NamedIndividual IRI="#Ambewela_Full_Cream"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-30T09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCalorificContent_Value"/>
+        <NamedIndividual IRI="#Anchor_Fortfied"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasExpireDate"/>
+        <NamedIndividual IRI="#Anchor_Fortfied"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-30T09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFat_Value_Per100g"/>
+        <NamedIndividual IRI="#Anchor_Fortfied"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasManufacture_Date"/>
+        <NamedIndividual IRI="#Anchor_Fortfied"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-30T09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCalorificContent_Value"/>
+        <NamedIndividual IRI="#Anchor_PediaPro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">280</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasExpireDate"/>
+        <NamedIndividual IRI="#Anchor_PediaPro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-30T09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFat_Value_Per100g"/>
+        <NamedIndividual IRI="#Anchor_PediaPro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasManufacture_Date"/>
+        <NamedIndividual IRI="#Anchor_PediaPro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-30T09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSpecialNutritious"/>
+        <NamedIndividual IRI="#Anchor_PediaPro"/>
+        <Literal>Omega3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSpecialNutritious"/>
+        <NamedIndividual IRI="#Anchor_PediaPro"/>
+        <Literal>Probiotics</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCalorificContent_Value"/>
+        <NamedIndividual IRI="#Anchor_PediaPro_Mama"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasExpireDate"/>
+        <NamedIndividual IRI="#Anchor_PediaPro_Mama"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-08-30T09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFat_Value_Per100g"/>
+        <NamedIndividual IRI="#Anchor_PediaPro_Mama"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasManufacture_Date"/>
+        <NamedIndividual IRI="#Anchor_PediaPro_Mama"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-30T09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSpecialNutritious"/>
+        <NamedIndividual IRI="#Anchor_PediaPro_Mama"/>
+        <Literal>DHA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCalorificContent_Value"/>
+        <NamedIndividual IRI="#Anchor_Shapeup"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasExpireDate"/>
+        <NamedIndividual IRI="#Anchor_Shapeup"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-30T09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFat_Value_Per100g"/>
+        <NamedIndividual IRI="#Anchor_Shapeup"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasManufacture_Date"/>
+        <NamedIndividual IRI="#Anchor_Shapeup"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-20T09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCalorificContent_Value"/>
+        <NamedIndividual IRI="#Enfamama"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">650</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasExpireDate"/>
+        <NamedIndividual IRI="#Enfamama"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-30T09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFat_Value_Per100g"/>
+        <NamedIndividual IRI="#Enfamama"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasManufacture_Date"/>
+        <NamedIndividual IRI="#Enfamama"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-30T09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTargetPeople"/>
+        <NamedIndividual IRI="#Enfamama"/>
+        <Literal>Mothers</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCalorificContent_Value"/>
+        <NamedIndividual IRI="#Horlicks_Choco"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">400</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasExpireDate"/>
+        <NamedIndividual IRI="#Horlicks_Choco"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-30T09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFat_Value_Per100g"/>
+        <NamedIndividual IRI="#Horlicks_Choco"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasManufacture_Date"/>
+        <NamedIndividual IRI="#Horlicks_Choco"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-30T09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#John_Ferdi"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Gender"/>
+        <NamedIndividual IRI="#Merry_levis"/>
+        <Literal>Female</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCalorificContent_Value"/>
+        <NamedIndividual IRI="#Nangrow"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">298</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasExpireDate"/>
+        <NamedIndividual IRI="#Nangrow"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-30T09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFat_Value_Per100g"/>
+        <NamedIndividual IRI="#Nangrow"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasManufacture_Date"/>
+        <NamedIndividual IRI="#Nangrow"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-30T09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSpecialNutritious"/>
+        <NamedIndividual IRI="#Nangrow"/>
+        <Literal>Omega3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSpecialNutritious"/>
+        <NamedIndividual IRI="#Nangrow"/>
+        <Literal>Probiotics</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCalorificContent_Value"/>
+        <NamedIndividual IRI="#Nescaffee_3_in1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">250</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasExpireDate"/>
+        <NamedIndividual IRI="#Nescaffee_3_in1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-30T09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFat_Value_Per100g"/>
+        <NamedIndividual IRI="#Nescaffee_3_in1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasManufacture_Date"/>
+        <NamedIndividual IRI="#Nescaffee_3_in1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-30T09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCalorificContent_Value"/>
+        <NamedIndividual IRI="#NestQuick_Kiddos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasExpireDate"/>
+        <NamedIndividual IRI="#NestQuick_Kiddos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-30T09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFat_Value_Per100g"/>
+        <NamedIndividual IRI="#NestQuick_Kiddos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasManufacture_Date"/>
+        <NamedIndividual IRI="#NestQuick_Kiddos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-30T09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCalorificContent_Value"/>
+        <NamedIndividual IRI="#Nestamalt"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasExpireDate"/>
+        <NamedIndividual IRI="#Nestamalt"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-30T09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFat_Value_Per100g"/>
+        <NamedIndividual IRI="#Nestamalt"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasManufacture_Date"/>
+        <NamedIndividual IRI="#Nestamalt"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-30T09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCalorificContent_Value"/>
+        <NamedIndividual IRI="#Sustegen_Ensure"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">550</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasExpireDate"/>
+        <NamedIndividual IRI="#Sustegen_Ensure"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-30T09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFat_Value_Per100g"/>
+        <NamedIndividual IRI="#Sustegen_Ensure"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasManufacture_Date"/>
+        <NamedIndividual IRI="#Sustegen_Ensure"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-30T09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTargetPeople"/>
+        <NamedIndividual IRI="#Sustegen_Ensure"/>
+        <Literal>OldPeople</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCalorificContent_Value"/>
+        <NamedIndividual IRI="#Milk_&apos;O&apos;_Mix_Butterscotch"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasExpireDate"/>
+        <NamedIndividual IRI="#Milk_&apos;O&apos;_Mix_Butterscotch"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-30T09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFat_Value_Per100g"/>
+        <NamedIndividual IRI="#Milk_&apos;O&apos;_Mix_Butterscotch"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasManufacture_Date"/>
+        <NamedIndividual IRI="#Milk_&apos;O&apos;_Mix_Butterscotch"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-30T09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCalorificContent_Value"/>
+        <NamedIndividual IRI="#Mother&apos;s_Horlicks"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasExpireDate"/>
+        <NamedIndividual IRI="#Mother&apos;s_Horlicks"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-30T09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFat_Value_Per100g"/>
+        <NamedIndividual IRI="#Mother&apos;s_Horlicks"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasManufacture_Date"/>
+        <NamedIndividual IRI="#Mother&apos;s_Horlicks"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-10T09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSpecialNutritious"/>
+        <NamedIndividual IRI="#Mother&apos;s_Horlicks"/>
+        <Literal>DHA</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasBrand"/>
+        <ObjectProperty IRI="#hasCover"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPacking"/>
+        <ObjectProperty IRI="#hasCover"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isBrandof"/>
+        <ObjectProperty IRI="#isCoverof"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isPackingof"/>
+        <ObjectProperty IRI="#isCoverof"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasBrand"/>
+        <ObjectProperty IRI="#isBrandof"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasBuyer"/>
+        <ObjectProperty IRI="#isBuyerof"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasCover"/>
+        <ObjectProperty IRI="#isCoverof"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasFlavour"/>
+        <ObjectProperty IRI="#isFlavourof"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasPacking"/>
+        <ObjectProperty IRI="#isPackingof"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasSeller"/>
+        <ObjectProperty IRI="#isSellerof"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasBrand"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#isBrandof"/>
+    </FunctionalObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasCover"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#isCoverof"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBrand"/>
+        <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBuyer"/>
+        <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFlavour"/>
+        <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPacking"/>
+        <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSeller"/>
+        <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isBrandof"/>
+        <Class IRI="#MilkPowder_Brands"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isBuyerof"/>
+        <Class IRI="#Customer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isFlavourof"/>
+        <Class IRI="#MilkPowder_Flavours"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPackingof"/>
+        <Class IRI="#MilkPowder_Packing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSellerof"/>
+        <Class IRI="#Seller"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBrand"/>
+        <Class IRI="#MilkPowder_Brands"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBuyer"/>
+        <Class IRI="#Customer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFlavour"/>
+        <Class IRI="#MilkPowder_Flavours"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPacking"/>
+        <Class IRI="#MilkPowder_Packing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSeller"/>
+        <Class IRI="#Seller"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTastyness"/>
+        <Class IRI="#Tasty_ValuePartition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isBrandof"/>
+        <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isBuyerof"/>
+        <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isFlavourof"/>
+        <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPackingof"/>
+        <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSellerof"/>
+        <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Gender"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasAge"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasCalorificContent_Value"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasExpireDate"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasFat_Value_Per100g"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasManufacture_Date"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasTargetPeople"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Gender"/>
+        <Class IRI="#Seller"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasAge"/>
+        <Class IRI="#Customer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCalorificContent_Value"/>
+        <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasExpireDate"/>
+        <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasManufacture_Date"/>
+        <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTargetPeople"/>
+        <Class IRI="http://www.semanticweb.org/devindi/ontologies/2021/5/untitled-ontology-11#MilkPowder"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Gender"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasAge"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCalorificContent_Value"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasExpireDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasFat_Value_Per100g"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasManufacture_Date"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSpecialNutritious"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTargetPeople"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ambewela_MilkPowder</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A MilkPowder that only has Vanila Flavour and local brand</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Anchor_MilkPowder</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A MilkPowder that only has Vanila Flavour and  Foreign brand</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BananaCream_Flavour</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Choclate flavour that has sweet  taste</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ChoclateMolt_Flavour</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">ChoclateMalt  flavour that has sweet mix bitter taste</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Choclate_Flavour</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Choclate flavour that has sweet mix bitter taste</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ClassicMolt_MilkPowder</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A MilkPowder that only has VanilaMolt Flavour and local brand</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Coffee_Flavour</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Coffee flavour that has sweet mix bitter taste</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cotton_Candy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Coconut  flavour that has low taste</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Delicious_MilkPowder</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A MilkPowder that has Tasty value as sweet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ForeignBrand</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">ForeignBrand</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FullCream_MilkPowder</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A MilkPowder that has &gt;=5 fat value per 100G of MilkPowder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Imported_MilkPowder</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A milk powder that has foreign brand</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LocalBrand</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">LocalBrand</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Local_MilkPowder</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A MilkPowder that has Local brand</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MilkCoffee_Powder</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A MilkPowder that has only coffee flavour and Sweet_mix_Bitter taste</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MilkPowder_Brands</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Different brand types of milk powder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MilkPowder_Flavours</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Different flavours of milk powder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MilkPowder_Packing</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Milk Powders Packing types</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MilkPowder_for_Babies</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A MilkPowder that has Special Nutritious values as &quot;Prebiotics&quot; &amp; &quot;Omega3&quot; and vanila flovour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MilkPowder_for_Pregnent_Mothers</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A MilkPowder that has Special Nutritious values as &quot;DHA&quot;  and  has vanila flovour.VanilaMalt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Milko_Mix_MilkPowder</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A MilkPowder that only has BananaCream Flavour , OrangeDramside ,Strawberry Flavour and has  Foreign brand</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Milo_MilkPowder</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A MilkPowder that only has ChoclateMalt Flavour and local brand</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MixFruit_MIlkPowder</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A MilkPowder that has 3 Fruit flavours milk powder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Molted_MilkPowder</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A MilkPowder that has Molt flavours only</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Named_MilkPowder</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Names of different MilkPowder Types</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Nescaffee_MilkPowder</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A MilkPowder that only has CoffeeFlavour and local brand</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Nespray_MilkPowder</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A MilkPowder that only has Vanila Flavour and local brand</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Nestle_MilkPowder</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A MilkPowder that only has Vanila Flavour and local brand</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NonFat_MilkPowder</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A MilkPowder that has &lt;5 fat value per 100G of MilkPowder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Nutritional_Suppliment_For_Breastfeeding_Mothers</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A nutritional suppliment for Pregnent mothers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Nutritional_Suppliment_MilkPowder</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A MilkPowder that has Calorific Content values&gt;=500 and has choclate or vanila brand with foreign brand</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Nutritional_Suppliment__For_Elders</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A nutritional suppliment milk poeder for Old people</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Orange_Dramside</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Orange flavour that has sweet  taste</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pepppermint_Flavour</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Peppermint  flavour that has low taste</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Plain_MilkPowder</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A MilkPowder that has only Vanila Flavour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Popular_MilkPowder</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A MilkPowder that has min 3 types of Milk powder flavours</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Strawberry_Flavour</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Strawberry flavour that has sweet  taste</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sustagen_MilkPowder</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A MilkPowder that only has Choclate  Flavour or Vanila flavour and Foreign brand</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tasty_ValuePartition</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Value of taste of MilkPowders</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VanilaMolt_Flavour</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">VanilaMalt  flavour that has sweet taste</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vanila_Flavour</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Vanila flavour that has sweet  taste</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
